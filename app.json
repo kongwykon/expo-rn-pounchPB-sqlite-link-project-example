@@ -1,0 +1,7 @@
+{
+  "name": "expo-test-ts",
+  "slug": "expo-test-ts",
+  "android": {
+    "package": "com.smartwayit.expotestts"
+  }
+}

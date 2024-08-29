@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "@craftzdog/pouchdb-collate-react-native": "^7.3.0",
+    "@craftzdog/pouchdb-core-react-native": "^7.2.2",
+    "@craftzdog/pouchdb-replication-react-native": "^7.0.0",
+    "@op-engineering/op-sqlite": "^7.3.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "base-64": "^1.0.0",
+    "bson": "^6.8.0",
+    "events": "^3.3.0",
+    "expo": "^51.0.0",
+    "expo-splash-screen": "~0.27.5",
+    "pouchdb-adapter-http": "^9.0.0",
+    "pouchdb-adapter-react-native-sqlite": "^4.0.5",
+    "pouchdb-core": "^9.0.0",
+    "pouchdb-find": "^9.0.0",
+    "pouchdb-mapreduce": "^9.0.0",
+    "pouchdb-react-native": "^6.4.1",
+    "pouchdb-utils": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-buffer": "^6.0.3",
+    "react-native-fast-base64": "^0.1.2",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-quick-crypto": "^0.7.3",
+    "react-native-uuid": "^2.0.2",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.70.6",
+    "typescript": "~5.3.3"
+  },
+  "op-sqlite": {
+    "fts5": true
+  },
+  "name": "expo-test-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  }
+}
